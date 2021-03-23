@@ -9,7 +9,7 @@
 	rgba(170,201,167,0.3)
 	);
 
-	--glassShadow:box-shadow: 5px 5px 15px -11px #000000;
+	--glassShadow: 5px 5px 15px -11px #000000;
 
 	--lineBreakColor:rgba(152,205,237,0.5);
 
@@ -23,7 +23,6 @@
 	--blob1BgColor:linear-gradient(90deg, rgba(152,205,237,0.5) 0%, rgb(127, 144, 156) 100%);
 
 	--blob2BgColor:linear-gradient(90deg, rgb(182, 152, 237) 0%, rgba(179, 167, 201, 0.5) 100%);
-
 }
 
 *{
@@ -83,6 +82,9 @@ main{
 	backdrop-filter: blur(2rem);
 	z-index: 3;
 	margin-top: 1em;
+	box-shadow: var(--glassShadow);
+
+	overflow: none;
 }
 
 .menu{
@@ -119,12 +121,14 @@ main{
 .container{
 	display: flex;
 	justify-content: space-evenly;
+
 }
 
 
 .bio-container{
 	width: 300px;
 	padding: 40px;
+	flex-shrink: 0;
 
 }
 
@@ -208,9 +212,9 @@ main{
 	display: flex;
 	margin-top: 1em;
 	padding: 20px;
-	
 	width: fit-content;
-	
+	align-items: stretch;
+
 }
 
 
@@ -244,6 +248,7 @@ main{
 	margin-left: 1em;
 	
 	width: 300px;
+	
 }
 
 
@@ -267,8 +272,8 @@ main{
 	margin:0;
 	box-sizing: border-box;
 	border-radius:0 0 5px 5px;
-	word-wrap: break-word
-
+	word-wrap: break-word;
+	
 
 }
 

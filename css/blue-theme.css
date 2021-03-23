@@ -2,15 +2,14 @@
 	--mainColor:rgba(63,83,102,1);
 	--mainColorShade1: rgba(49,74,88,1);
 
-	/*--mainColor:rgba(63,83,102,1);
-	--mainColorShade1:rgba(37,106,147,1);*/
-
 	--solidBgColor:#fff;
 
 	--glassColor:linear-gradient(to right bottom, 
 	rgba(152,205,237,0.5), 
 	rgba(170,201,167,0.3)
 	);
+
+	--glassShadow: 5px 5px 15px -11px #000000;
 
 	--lineBreakColor:rgba(152,205,237,0.5);
 
@@ -23,10 +22,7 @@
 
 	--blob1BgColor:linear-gradient(90deg, rgba(152,205,237,0.5) 0%, rgb(127, 144, 156) 100%);
 
-	/*--blob2BgColor:linear-gradient(90deg, rgb(182, 152, 237) 0%, rgba(179, 167, 201, 0.5) 100%);
-*/
 	--blob2BgColor:linear-gradient(90deg, rgba(129,157,182,1) 0%, rgba(68,105,140,1) 100%);
-
 }
 
 
